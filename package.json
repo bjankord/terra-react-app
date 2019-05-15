@@ -1,0 +1,39 @@
+{
+  "name": "terra-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://bjankord.github.io/terra-react-app/",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-intl": "^2.8.0",
+    "react-scripts": "^3.0.0",
+    "terra-aggregate-translations": "^1.0.0",
+    "terra-alert": "^3.3.0",
+    "terra-base": "^5.0.0",
+    "terra-button": "^3.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "aggregate-translations": "tt-aggregate-translations -b ./ -d ./src/**/translations -d ./translations -o ./node_modules/terra-i18n/node_modules -f es6",
+    "prestart": "npm run aggregate-translations",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run aggregate-translations && npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
