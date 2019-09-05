@@ -11,9 +11,6 @@
 # production
 /build
 
-# terra-ui
-aggregated-translations
-
 # misc
 .DS_Store
 .env.local

@@ -1,21 +1,4 @@
-This project is provided as-is for individuals to quickly get set up and explore using [Terra UI](https://engineering.cerner.com/terra-ui/). This app is good for prototypes or exploring and getting familiar with Terra UI components.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Getting Started
-To get started, you can clone this repo.
-
-```
-git clone git@github.com:bjankord/terra-react-app.git
-```
-
-Next, run yarn to install the dependencies
-
-```
-yarn install
-```
-
-Then you can run the create-react-app scripts to get started with development on the app.
 
 ## Available Scripts
 

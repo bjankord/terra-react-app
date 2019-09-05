@@ -1,7 +1,5 @@
 .App {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 .App-logo {
@@ -12,8 +10,8 @@
 
 .App-header {
   background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -32,8 +30,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.locale-switcher {
-  display: block;
 }
