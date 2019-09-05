@@ -1,6 +1,6 @@
 This project is provided as-is for individuals to quickly get set up and explore using [Terra UI](https://engineering.cerner.com/terra-ui/). This app is good for prototypes or exploring and getting familiar with Terra UI components.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can [view a diff of this repo compared to the default output from create-react-app here](https://github.com/bjankord/terra-react-app/compare/create-react-app-output?expand=1) to see the changes required to support Terra UI components in create-react-app.
 
 ## Getting Started
 To get started, you can clone this repo.
